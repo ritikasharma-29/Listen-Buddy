@@ -1734,3 +1734,111 @@ input::placeholder {
 .remove-song:active {
     transform: scale(0.95);
 }
+
+
+/* ========================= */
+/* LISTEN BUDDY HOME PAGE */
+/* ========================= */
+
+/* ========================= */
+/* LIGHT HOME PAGE */
+/* ========================= */
+
+.home {
+    min-height: 100vh;
+    background: #f8f9ff;
+}
+
+.home-content {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Main Card */
+.card {
+    width: 420px;
+    padding: 45px 35px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 22px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Music Icon */
+.card > div:first-child {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto 20px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #e9d5ff;
+    box-shadow: 0 5px 15px rgba(139, 92, 246, 0.15);
+}
+
+/* Title */
+.home-title {
+    font-size: 38px;
+    margin: 10px 0;
+    color: #4b5563;
+}
+
+/* Subtitle */
+.home-subtitle {
+    color: #9ca3af;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+/* Buttons */
+.home-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.home-buttons a {
+    text-decoration: none;
+}
+
+.btn {
+    width: 100%;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+/* Create Room */
+.btn-primary {
+    background: #c4b5fd;
+    color: #4c1d95;
+}
+
+/* Join + About */
+.btn-secondary {
+    background: #fbcfe8;
+    color: #831843;
+    border: 1px solid #f9a8d4;
+}
+
+/* Hover */
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.btn-primary:hover {
+    background: #a78bfa;
+}
+
+.btn-secondary:hover {
+    background: #f9a8d4;
+}

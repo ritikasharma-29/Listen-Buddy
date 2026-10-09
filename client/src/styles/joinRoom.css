@@ -1,0 +1,72 @@
+/* ========================= */
+/* JOIN ROOM PAGE */
+/* ========================= */
+
+.join-room-page {
+    min-height: 100vh;
+    background: #f8f9ff;
+    padding: 30px 20px;
+}
+
+.join-room-container {
+    width: 420px;
+    max-width: 100%;
+    margin: 70px auto;
+    padding: 40px 35px;
+    background: #ffffff;
+    border-radius: 20px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.join-room-container h1 {
+    color: #4b5563;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.join-room-container p {
+    color: #9ca3af;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.join-room-container label {
+    display: block;
+    color: #4b5563;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.join-room-container input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 14px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+    background: #fafafa;
+    margin-bottom: 20px;
+}
+
+.join-room-container input:focus {
+    border-color: #f9a8d4;
+    background: #ffffff;
+}
+
+.join-room-container button {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 10px;
+    background: #fbcfe8;
+    color: #831843;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.join-room-container button:hover {
+    background: #f9a8d4;
+}

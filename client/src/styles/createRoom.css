@@ -1,0 +1,75 @@
+/* ========================= */
+/* CREATE ROOM PAGE */
+/* ========================= */
+
+.create-room-page {
+    min-height: 100vh;
+    background: #f8f9ff;
+    padding: 30px 20px;
+}
+
+.create-room-container {
+    width: 420px;
+    max-width: 100%;
+    margin: 70px auto;
+    padding: 40px 35px;
+    background: #ffffff;
+    border-radius: 20px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.create-room-container h1 {
+    color: #4b5563;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.create-room-container > p {
+    color: #9ca3af;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    color: #4b5563;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.form-group input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 14px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+    background: #fafafa;
+}
+
+.form-group input:focus {
+    border-color: #a78bfa;
+    background: #ffffff;
+}
+
+.create-room-container button {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 10px;
+    background: #c4b5fd;
+    color: #4c1d95;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.create-room-container button:hover {
+    background: #a78bfa;
+}

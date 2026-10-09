@@ -1,16 +1,4 @@
-// function About() {
-//     return (
-//         <div>
-//             <h1>About Listen Buddy</h1>
-//             <p>
-//                 Listen Buddy is a local Wi-Fi music sharing application.
-//             </p>
-//         </div>
-//     );
-// }
-
-// export default About;
-
+import "../styles/About.css";
 
 function About() {
     return (

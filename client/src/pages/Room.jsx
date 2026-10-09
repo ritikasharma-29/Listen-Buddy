@@ -1,6 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import socket from "../socket";
+import "../styles/Room.css";
 
 function Room() {
     const { roomId } = useParams();
